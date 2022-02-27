@@ -2,6 +2,9 @@
 
 A simple streamlit based webapp to process text and correct punctuation built using "fullstop-punctuation-multilang-large" Model from Huggingface Transformers 🤗.
 
+![text](https://user-images.githubusercontent.com/29462447/155897274-d13b864b-530c-4f79-a956-7f1d63b3d311.gif)
+![doc](https://user-images.githubusercontent.com/29462447/155897279-285f5ab9-79eb-40fa-ab25-b15e5c21edd5.gif)
+
 ## Installation:
 * Simply run the command ***pip install -r requirements.txt*** to install the dependencies.
 
@@ -19,9 +22,11 @@ streamlit run app.py --server.maxUploadSize=1028
 
 ## Results:
 1. Perform punctuation correction on random text on the fly!
+![1](https://user-images.githubusercontent.com/29462447/155897302-d8345d12-2392-40f1-9534-5f3ed07a8fdb.png)
+![2](https://user-images.githubusercontent.com/29462447/155897300-725e4ab0-1bf7-4647-8edf-c5fb661cb147.png)
 
 2. Upload your document ***(supports PDFs, Word Files, Text files)*** and perform correction of punctuation:
-
+![doc](https://user-images.githubusercontent.com/29462447/155897279-285f5ab9-79eb-40fa-ab25-b15e5c21edd5.gif)
 
 ### Running the Dockerized App
 1. Ensure you have Docker Installed and Setup in your OS (Windows/Mac/Linux). For detailed Instructions, please refer [this.](https://docs.docker.com/engine/install/)
