@@ -1,0 +1,10 @@
+pipenv
+streamlit
+sentencepiece 
+torch
+torchvision
+torchaudio
+transformers
+fitz
+PyMuPDF
+python-docx
